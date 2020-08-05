@@ -36,4 +36,4 @@ const User = mongoose.model('User',userSchema)
 //스키마는 모델로 감싸줘야한다! model('이 모델의 이름',스키마이름) 이런식으로 해줌!
 
 //이 모델을 다른 파일에서도 사용할 수 있도록
-module.export = { User }
+module.exports = { User };
